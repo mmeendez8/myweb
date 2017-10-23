@@ -497,7 +497,7 @@ textarea::-ms-input-placeholder
 /*For About Us Section */
 
 .about-content{
-    margin-top:70px;
+/*    margin-top:70px;*/
 }
 .about-content h4{
     font-size:18px;
@@ -593,7 +593,7 @@ textarea::-ms-input-placeholder
     margin-top:30px;
 }
 .experience-content{
-    background: rgba(7, 51, 88, .6);
+    background: rgba(7, 51, 88, .7);
     padding:60px 40px;
     color:#fff;
 }
@@ -625,7 +625,9 @@ textarea::-ms-input-placeholder
     font-family: 'Abel', sans-serif;
 }
 
-
+.experience-content .content-details a{
+    color:white;
+}
 /* For Portfolio Section*/
 .portfolio-item {
 	margin-bottom:20px;
@@ -1359,4 +1361,32 @@ width: 50%;
     margin-right: 0px;
     padding-bottom: 0px;
     margin-bottom: -3px;
+}
+
+.phone-icon{
+        margin-right: 5px;
+    margin-left: 15px;
+}
+
+
+.social-up{
+    margin-bottom:10px;
+}
+.social-up a{
+    color:#c3bec2;
+    font-size:15px;
+}
+.social-up a:hover{
+    color:#ff2b4a;
+}
+.social-up a i{
+    border-right:1px solid #c3bec2;
+    padding:0 10px 0 10px;
+}
+.social-up a i.dribbble{
+    border-right:0;
+}
+.social-up p{
+    color:#c3bec2;
+    font-size:12px;	
 }
