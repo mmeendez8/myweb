@@ -1364,11 +1364,46 @@ width: 50%;
     margin-bottom: -3px;
 }
 
+.degaltec-logo{
+    width: 20%;
+    margin-right: 0px;
+    padding-bottom: 0px;
+    margin-bottom: -3px;
+        margin-left: 10px;
+}
+
+.inno-logo{
+    width: 14%;
+    margin-right: 2px;
+    padding-bottom: 0px;
+    margin-bottom: -3px;
+    margin-bottom: 4px;
+}
+
+.desigual-logo{
+        width: 20%;
+    margin-right: 0px;
+    padding-bottom: 3px;
+    margin-bottom: -3px;
+}
+
+.text-left{
+    text-align: left !important;
+}
+
 .phone-icon{
         margin-right: 5px;
     margin-left: 15px;
 }
 
+.inno-text{
+    padding-left: 43px;
+    padding-right:0px;
+}
+
+.inno-col{
+    padding-right: 0px;
+}
 
 .social-up{
     margin-bottom:10px;
