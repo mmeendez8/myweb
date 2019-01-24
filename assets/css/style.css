@@ -1437,8 +1437,9 @@ width: 50%;
     font-size:12px;	
 }
 
-
-
+.main-hidden-img{
+    display: none;
+}
 
 /* MEDIUM*/
 .fm-post{
