@@ -37,6 +37,7 @@
         <link href="https://fonts.googleapis.com/css?family=Abel|Shadows+Into+Light" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|ZCOOL+KuaiLe" rel="stylesheet">
         
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         
@@ -161,15 +162,38 @@
         </section>
 
         <!-- Sections -->
-        <section id="features" class="sections lightbg">
-
+        <section id="features" class="sections_spec lightbg">
+            <div class="overlay sections">
             <div class="heading-content text-center">
-                <h3>My Working Process</h1>
-<!--                    <p>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>-->
+                <h3>Medium Posts</h1>
             </div>
-
+            
+            
             <div class="container text-center">
                 <!-- Example row of columns -->
+                <div class="row">
+                    <div class="features-wrapper">
+
+                        <div class="col-md-offset-2 col-xs-offset-2 col-md-8 col-sm-8 col-xs-8">
+                            <div id="fm-medium-embed"></div>
+                            <script src="assets/js/embed.js"></script>
+                            <script>
+                              var fmSettings = {
+                                feedURL: 'https://data.feedmirror.com/-LWzsMBNi8e7cwmvuAhQ.json',
+                                integration: 'medium-embed',
+                                linkOutText: 'Read more',
+                                linkToMediumProfileText: 'Subscribe on Medium',
+                                postsCount: 3,
+                                element: 'fm-medium-embed'
+                              };
+                              feedmirror.initialize(fmSettings);
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--<div class="container text-center">
                 <div class="row">
                     <div class="features-wrapper">
 
@@ -219,7 +243,9 @@
 
                     </div>
                 </div>
-            </div> <!-- /container -->       
+            </div>  /container -->    
+                            </div>
+
         </section>
 
         

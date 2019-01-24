@@ -19,6 +19,9 @@ body {
     font-family: 'robotoregular';
     font-weight: 300;
     overflow-x: hidden;
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
 /*==========================================
 PRE LOADER 
@@ -203,7 +206,15 @@ p:last-child {
 }
 
 .lightbg {
-    background-color: #0B3142;
+    background-color: #3a393f;
+    padding-bottom: 0px;
+}
+
+
+.sections_spec {
+    padding-bottom: 0px;
+    position: relative;
+    overflow: hidden;
 }
 .transition {
     -webkit-transition: all 300ms linear;
@@ -441,7 +452,7 @@ textarea::-ms-input-placeholder
 }
 .heading-content h3{
     font-size: 50px;
-    font-family: 'Architects Daughter';
+    font-family: 'ZCOOL KuaiLe', cursive;
     font-weight: 700;
     letter-spacing: 0px;
     color: #DDDFEB;
@@ -465,7 +476,6 @@ textarea::-ms-input-placeholder
 
 /*For Home Section*/
 .home{
-/*    background: url(../images/header-bg.jpg) no-repeat center top fixed;*/
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -510,7 +520,7 @@ textarea::-ms-input-placeholder
 
 /*For Features Section*/
 .features-bg{
-    background:#10c6fc;
+    background:#3a393f;
     color:#fff;
     height: 270px;
     width: 283px;
@@ -1426,3 +1436,36 @@ width: 50%;
     color:#c3bec2;
     font-size:12px;	
 }
+
+
+
+
+/* MEDIUM*/
+.fm-post{
+        display: grid;
+    grid-gap: 5px;
+}
+.fm-post img{
+    padding-top: 40px;
+}
+.fm-post-title {
+    padding-top: 15px;
+    margin-bottom: 13px;
+}
+
+.fm-post-title a{
+    color:#DDDFEB;
+}
+
+.fm-post-read-more{
+    display:none;
+}
+.fm-post p{
+    margin:0px;
+    color:#dddfeba3;
+}
+
+.fm-medium-profile{
+    display:none;
+}
+
