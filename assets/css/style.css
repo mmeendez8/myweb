@@ -1470,3 +1470,10 @@ width: 50%;
     display:none;
 }
 
+.blog a{
+    color:#ecf0f2;
+    margin-bottom: 25px;
+}
+.blog a:hover{
+    color:#ff2b4a;
+}
